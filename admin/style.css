@@ -1,0 +1,12 @@
+body {
+    font-family: Roboto Condensed;
+}
+
+/* NAVBAR */
+
+.navbar-brand,
+.nav-link {
+    position: relative;
+    margin-right: 20px;
+    color: whitesmoke !important;
+}

@@ -1,0 +1,132 @@
+body {
+    font-family: Poppins;
+}
+
+/* NAVBAR */
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-nav .btn {
+    margin-left: 15px;
+    border-radius: 100px;
+    height: 40px;
+    box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-nav .badge {
+    border-radius: 100px;
+    margin-left: -13px;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    color: black;
+    font-weight: 100;
+    background-color: #ffe791;
+}
+
+.nav-link {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: #ffe791;
+    height: 670px;
+    margin-top: -80px;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    margin: 100px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-item img {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+/* .carousel-inner {
+    width: 600px;
+} */
+
+.carousel-item .card {
+    background-color: #fcc605;
+    border-radius: 0;
+    border: 0;
+    width: 15rem;
+    position: relative;
+    /* -webkit-box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.51); */
+}
+
+.carousel-item .card .card-footer {
+    border-top: 0;
+    background-color: #fcc605;
+    display: block;
+    text-align: right;
+}
+
+.carousel-item .card .badge {
+    background-color: transparent;
+    border: 0;
+    font-weight: bolder;
+    font-size: 12px;
+
+}
+
+.carousel-control-next {
+    margin-right: 150px;
+}
+
+.carousel-control-next .badge {
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: solid white;
+}
+
+.title {
+    margin-left: 250px;
+    margin-top: -280px;
+    position: absolute;
+}
+
+.title h2 {
+    font-weight: 900;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.title p {
+    font-size: 7px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 5px;
+    color: #323333;
+}
+
+.title .card {
+    background-color: transparent;
+}
+
+.text-right sup {
+    font-size: 15px;
+}
